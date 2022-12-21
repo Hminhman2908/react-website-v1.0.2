@@ -6,7 +6,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router >
+    <Router basename="/react-website-v1.0.2">
       <App />
     </Router>
   </React.StrictMode>
